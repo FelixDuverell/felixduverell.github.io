@@ -1,0 +1,169 @@
+.fancy-card {
+    background: #4a4a4b;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    position: relative;
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
+    transition: all 250ms ease-in;
+    background-size: cover;
+    background-position: center;
+    margin: 20px;
+    margin-bottom: 30px;
+    margin-right: 20px;
+    margin-left: 20px;
+    max-width: 280px;
+    width: 100%;
+    min-height: 340px;
+    border-radius: 8px;
+}
+
+.fancy-card .bg-overlay {
+    background: rgba(0, 0, 0, 0.25);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    transition: all 200ms linear;
+}
+.fancy-card .content {
+    padding: 30px 40px;
+    color: #fff;
+    text-align: center;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    flex-direction: row;
+}
+.fancy-card .content .primary {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+    text-align: center;
+    width: 100%;
+    transition: all 250ms ease-out 200ms;
+    opacity: 1;
+    transform: translate3d(0px, 0px, 1px);
+}
+.fancy-card .content .secondary {
+    color: black;
+    position: absolute;
+    opacity: 0;
+    left: 0px;
+    transform: translate3d(0px, 30px, 1px);
+    transition: all 200ms linear 0ms;
+    align-items: center;
+    padding-left: 35px;
+    padding-right: 35px;
+    margin-top: 30px;
+}
+
+/*______________________________FULL PAGE STYLES: some important for cards____________________________*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "K2D", sans-serif;
+    font-weight: 500;
+    letter-spacing: 0.25px;
+}
+.discover__btn {
+    color: white;
+    background: #000000;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    border-style: none;
+    cursor: pointer;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 40px;
+    border-radius: 8px;
+    margin: 50px;
+    width: 100px;
+}
+
+.discover__btn:hover {
+    opacity: 0.7;
+}
+
+.discover__btn:active {
+    scale: 0.9;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+.cf {
+    margin: 10%;
+}
+.cf:before,
+.cf:after {
+    display: table;
+    content: " ";
+}
+.cf:after {
+    clear: both;
+}
+
+/*_________________________BUTTON ICON ANIMATIONS (simple)______________________*/
+
+/*______________________CARD HOVER STYLES________________________*/
+/*hovering over card, shadow effect*/
+.fancy-card:active,
+.fancy-card:hover {
+    box-shadow: 10px 10px 0px 0px rgba(150, 183, 194, 0.381);
+}
+/*hovering over card, adjust first side*/
+.fancy-card:active .content .primary,
+.fancy-card:hover .content .primary {
+    opacity: 0;
+    transform: translate3d(0px, 20px, 1px);
+    transition: all 200ms linear 0ms;
+}
+/*hoverijng over card, adjust second side*/
+.fancy-card:active .content .secondary,
+.fancy-card:hover .content .secondary {
+    opacity: 1;
+    transform: translate3d(0px, 0px, 1px);
+    transition: all 200ms linear 200ms;
+}
+
+/*hovering over card, adjust background overlay*/
+.fancy-card:active .bg-overlay,
+.fancy-card:hover .bg-overlay {
+    background: rgba(252, 254, 255, 0.442);
+}
+
+@media screen and (max-width: 880px) {
+    .contact-box {
+        grid-template-columns: 1;
+    }
+
+    .left {
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .contact-box {
+        grid-template-columns: 1;
+    }
+
+    .left {
+        height: 100px;
+    }
+}
