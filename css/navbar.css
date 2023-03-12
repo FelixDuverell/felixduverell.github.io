@@ -1,44 +1,44 @@
 nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-top: 40px;
-    padding-left: 10%;
-    padding-right: 10%;
-    background-color: #000;
-    padding-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 40px;
+  padding-left: 10%;
+  padding-right: 10%;
+  background-color: #000;
+  padding-bottom: 30px;
 }
 
 ul {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 nav ul li {
-    list-style-type: none;
-    display: inline-block;
-    padding: 10px 40px;
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px 40px;
 }
 
 nav ul li a {
-    color: #fff;
-    text-decoration: none;
-    font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
 }
 
 nav ul li a:hover {
-    color: #cacaca;
-    text-decoration-line: underline;
-    transition: 0.3s;
+  color: #cacaca;
+  text-decoration-line: underline;
+  transition: 0.3s;
 }
 
 .navlogo {
-    color: #fff;
-    font-size: 50px;
-    font-weight: 500;
-    text-decoration: none;
+  color: #fff;
+  font-size: 50px;
+  font-weight: 500;
+  text-decoration: none;
 }
 
 .navtext {
-    color: #fff;
-    font-size: 18px;
+  color: #fff;
+  font-size: 18px;
 }
