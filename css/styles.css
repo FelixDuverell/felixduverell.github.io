@@ -72,8 +72,17 @@ body {
 
 .about-text {
   color: #fff;
-  margin-top: 30px;
+  margin-top: 26px;
   margin-left: 10%;
+  font-size: 15px;
+  font-weight: bolder;
+  text-shadow: 0 0 10px #6b6b6b;
+}
+
+.text-position {
+  /* border: 1px dotted blue; */
+  width: 400px;
+  height: 100%;
 }
 /* ___________________________Footer across___________________________ */
 footer {
