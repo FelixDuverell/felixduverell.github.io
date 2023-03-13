@@ -284,6 +284,10 @@ footer {
     }
 }
 @media screen and (max-width: 400px) {
+    body {
+        background-color: #6b6b6b;
+    }
+
     .container {
         width: 80%;
         min-height: 47.99vh;
