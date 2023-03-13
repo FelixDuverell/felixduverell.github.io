@@ -494,6 +494,10 @@ footer {
 
 @media screen and (max-width: 320px) {
     /* ___________________________Frontpage___________________________ */
+
+    body {
+        background-color: #6b6b6b;
+    }
     .container {
         width: 80%;
         min-height: 47.99vh;
@@ -539,9 +543,6 @@ footer {
         width: 200px;
     }
     /* ___________________________AboutMe___________________________ */
-    body {
-        background-color: #7c7c7c;
-    }
 
     .background-about {
         min-width: 100%;
