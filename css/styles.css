@@ -140,6 +140,10 @@ footer {
 
 @media screen and (max-width: 800px) {
     /* ___________________________Frontpage___________________________ */
+    body {
+        background-color: #6b6b6b;
+    }
+
     .container {
         width: 80%;
         min-height: 47.99vh;
