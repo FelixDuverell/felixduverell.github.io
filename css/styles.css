@@ -375,13 +375,13 @@ footer {
 
     .card {
         box-shadow: 10px 10px 10px rgba(0, 2, 2, 0.507);
-        width: 280px;
+        width: 200px;
         height: 327px;
         margin: auto;
         justify-content: center;
         text-align: center;
         margin-top: 60px;
-        margin-left: 20px;
+        margin-left: 60px;
         margin-right: 10px;
         margin-bottom: 50px;
         background-color: #2e2e2e73;
@@ -424,66 +424,72 @@ footer {
     .cardbtn a:hover {
         opacity: 0.7;
     }
-}
 
-/* ___________________________contact___________________________ */
+    .img-portfolio {
+        width: 200px;
+    }
+    .hr-portfolio {
+        margin-left: 50px;
+    }
+    /* ___________________________contact___________________________ */
 
-.contact {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 5%;
-    width: 100%;
-    height: 100%;
-    padding: 20px 100px;
-}
+    .contact {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 5%;
+        width: 100%;
+        height: 100%;
+        padding: 20px 100px;
+    }
 
-.contact:after {
-    content: "";
-    position: absolute;
-    left: 0;
-    right: 0;
-    width: 100%;
-    height: 100%;
-    background: url("/images/happyfelix.png") no-repeat center;
-    background-size: cover;
-    z-index: -1;
-    filter: blur(50px);
-}
+    .contact:after {
+        content: "";
+        position: absolute;
+        left: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+        background: url("/images/happyfelix.png") no-repeat center;
+        background-size: cover;
+        z-index: -1;
+        filter: blur(50px);
+    }
 
-.contact-box {
-    width: 1000px;
-    height: 580px;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    background-color: #fff;
-    box-shadow: 0px 0px 19px 5px rgba(0, 0, 0, 0.19);
-}
+    .contact-box {
+        width: 1000px;
+        height: 580px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-color: #fff;
+        box-shadow: 0px 0px 19px 5px rgba(0, 0, 0, 0.19);
+    }
 
-.right {
-    padding: 25px 40px;
-}
+    .right {
+        padding: 25px 40px;
+    }
 
-.contact-header {
-    position: relative;
-    padding-bottom: 10px;
-    margin-bottom: 10px;
-    font-size: 30px;
-    color: #000;
-}
+    .contact-header {
+        position: relative;
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+        font-size: 30px;
+        color: #000;
+    }
 
-.contact-header:after {
-    content: "";
-    position: absolute;
-    left: 50%;
-    bottom: 0;
-    transform: translateX(-50%);
-    height: 4px;
-    width: 50px;
-    border-radius: 2px;
-    background-color: #2eafcc;
+    .contact-header:after {
+        content: "";
+        position: absolute;
+        left: 50%;
+        bottom: 0;
+        transform: translateX(-50%);
+        height: 4px;
+        width: 50px;
+        border-radius: 2px;
+        background-color: #2eafcc;
+    }
 }
