@@ -93,7 +93,7 @@ body {
 }
 /* ___________________________Footer across___________________________ */
 footer {
-    margin: auto 0;
+    margin: auto;
     width: 100%;
     border: 2px solid black;
     margin-top: auto;
@@ -107,6 +107,33 @@ footer {
 }
 
 /* ___________________________Screen sizes___________________________ */
+
+@media screen and (max-width: 1600px) {
+    .card {
+        box-shadow: 10px 10px 10px rgba(0, 2, 2, 0.507);
+        width: 280px;
+        height: 330px;
+        margin: auto;
+        text-align: center;
+        margin-top: 60px;
+        margin-left: 100px;
+        margin-right: 100px;
+        background-color: #2e2e2e73;
+        border-radius: 10px;
+    }
+
+    .contact-box {
+        width: 1000px;
+        height: 580px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-color: #fff;
+        box-shadow: 0px 0px 19px 5px rgba(0, 0, 0, 0.19);
+    }
+}
 
 @media screen and (max-width: 1300px) {
     .card {
