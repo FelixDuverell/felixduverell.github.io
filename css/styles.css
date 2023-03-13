@@ -22,15 +22,6 @@ body {
     filter: blur(50px);
 }
 
-.background-about {
-    position: absolute;
-    min-width: 100%;
-    min-height: 100%;
-    background: url("/images/frontpage-blur.jpg") no-repeat;
-    background-size: cover;
-    z-index: -1;
-}
-
 .container {
     width: 90%;
     min-height: 47.99vh;
@@ -71,6 +62,15 @@ body {
 }
 /* ___________________________AboutMe___________________________ */
 
+.background-about {
+    position: absolute;
+    min-width: 100%;
+    min-height: 100%;
+    background: url("/images/frontpage-blur.jpg") no-repeat;
+    background-size: cover;
+    z-index: -1;
+}
+
 .container-about {
     min-width: 100%;
     min-height: 82vh;
@@ -109,6 +109,228 @@ footer {
 /* ___________________________Screen sizes___________________________ */
 
 @media screen and (max-width: 1600px) {
+    body {
+        background-color: #6b6b6b;
+    }
+    /* ___________________________Frontpage___________________________ */
+    .background {
+        position: absolute;
+        left: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+        background: url("/images/frontpage-blur.jpg") no-repeat center;
+        background-size: cover;
+        z-index: -1;
+        filter: blur(50px);
+    }
+
+    .container {
+        width: 90%;
+        min-height: 47.99vh;
+        height: 430px;
+        background-color: rgba(255, 255, 255, 0);
+        border: 2px solid rgba(0, 0, 0, 0);
+        border-radius: 10px;
+        margin: 10%;
+        /* border: 1px solid blue; */
+    }
+
+    .container-home {
+        min-width: 100%;
+        min-height: 63vh;
+        /* border: 10px dotted red; */
+    }
+
+    .imgplacing {
+        margin-top: -400px;
+        margin-left: -700px;
+        margin-right: 170px;
+    }
+
+    .front-text-top {
+        color: white;
+        margin-top: 100px;
+    }
+
+    .front-text {
+        color: white;
+        margin-top: 15px;
+    }
+
+    .underline {
+        margin-top: 50px;
+        width: 40%;
+    }
+
+    /* ___________________________AboutMe___________________________ */
+
+    .background-about {
+        position: absolute;
+        min-width: 100%;
+        min-height: 100%;
+        background: url("/images/frontpage-blur.jpg") no-repeat;
+        background-size: cover;
+        z-index: -1;
+        filter: blur(50px);
+    }
+
+    .container-about {
+        min-width: 100%;
+        min-height: 82vh;
+        /* border: 10px dotted red; */
+    }
+
+    .about-text {
+        color: #fff;
+        margin-left: 160px;
+        font-size: 18px;
+        font-weight: bolder;
+        text-shadow: 0 0 10px #6b6b6b;
+    }
+
+    .text-position {
+        width: 499px;
+        height: 800px;
+        /* border: 1px dotted #0000ff; */
+    }
+    /* ___________________________Portfolio___________________________ */
+    .box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 50px;
+        height: 72vh;
+        margin-top: 50px;
+
+        /* border: 2px solid red; */
+    }
+
+    .card {
+        box-shadow: 10px 10px 10px rgba(0, 2, 2, 0.507);
+        width: 280px;
+        height: 327px;
+        margin: auto;
+        text-align: center;
+        margin-top: 60px;
+        margin-left: 100px;
+        margin-right: 100px;
+        background-color: #2e2e2e73;
+        border-radius: 10px;
+    }
+
+    .head {
+        color: rgb(255, 255, 255);
+    }
+
+    .title {
+        color: rgb(233, 233, 233);
+        font-size: 18px;
+    }
+
+    .cardbtn {
+        border: none;
+        outline: 0;
+        display: inline-block;
+        padding: 8px;
+        color: white;
+        background-color: #000000;
+        text-align: center;
+        cursor: pointer;
+        width: 100%;
+        font-size: 18px;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+    }
+
+    a {
+        text-decoration: none;
+        font-size: 22px;
+        color: #ffffff;
+    }
+
+    .cardbtn:hover {
+        opacity: 0.7;
+    }
+    .cardbtn a:hover {
+        opacity: 0.7;
+    }
+
+    /* ___________________________contact___________________________ */
+    .contact {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 5%;
+        margin-left: 0px;
+        width: 100%;
+        height: 100%;
+        padding: 20px 100px;
+    }
+
+    .contact:after {
+        content: "";
+        position: absolute;
+        left: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+        background: url("/images/happyfelix.png") no-repeat center;
+        background-size: cover;
+        z-index: -1;
+        filter: blur(50px);
+    }
+
+    .contact-box {
+        width: 1000px;
+        height: 580px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-color: #fff;
+        box-shadow: 0px 0px 19px 5px rgba(0, 0, 0, 0.19);
+    }
+
+    .left {
+        height: 100%;
+        background: url("/images/happyfelix.png");
+        background-size: cover;
+    }
+
+    .right {
+        padding: 25px 40px;
+    }
+
+    .contact-header {
+        position: relative;
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+        font-size: 30px;
+        color: #000;
+    }
+
+    .contact-header:after {
+        content: "";
+        position: absolute;
+        left: 50%;
+        bottom: 0;
+        transform: translateX(-50%);
+        height: 4px;
+        width: 50px;
+        border-radius: 2px;
+        background-color: #2eafcc;
+    }
+
+    .top {
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    /* ___________________________Portfolio___________________________ */
     .card {
         box-shadow: 10px 10px 10px rgba(0, 2, 2, 0.507);
         width: 280px;
@@ -121,13 +343,21 @@ footer {
         background-color: #2e2e2e73;
         border-radius: 10px;
     }
-}
+    .box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 50px;
+        height: 72vh;
+        margin-top: 50px;
 
-@media screen and (max-width: 1300px) {
+        /* border: 2px solid red; */
+    }
+
     .card {
         box-shadow: 10px 10px 10px rgba(0, 2, 2, 0.507);
         width: 280px;
-        height: 320px;
+        height: 327px;
         margin: auto;
         text-align: center;
         margin-top: 60px;
@@ -135,6 +365,43 @@ footer {
         margin-right: 100px;
         background-color: #2e2e2e73;
         border-radius: 10px;
+    }
+
+    .head {
+        color: rgb(255, 255, 255);
+    }
+
+    .title {
+        color: rgb(233, 233, 233);
+        font-size: 18px;
+    }
+
+    .cardbtn {
+        border: none;
+        outline: 0;
+        display: inline-block;
+        padding: 8px;
+        color: white;
+        background-color: #000000;
+        text-align: center;
+        cursor: pointer;
+        width: 100%;
+        font-size: 18px;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+    }
+
+    a {
+        text-decoration: none;
+        font-size: 22px;
+        color: #ffffff;
+    }
+
+    .cardbtn:hover {
+        opacity: 0.7;
+    }
+    .cardbtn a:hover {
+        opacity: 0.7;
     }
 }
 
