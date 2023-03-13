@@ -283,6 +283,214 @@ footer {
         opacity: 0.7;
     }
 }
+@media screen and (max-width: 400px) {
+    .container {
+        width: 80%;
+        min-height: 47.99vh;
+        height: 600px;
+        background-color: rgba(255, 255, 255, 0);
+        border: 2px solid rgba(0, 0, 0, 0);
+        border-radius: 10px;
+        margin: 10%;
+        /* border: 1px solid blue; */
+    }
+
+    .front-text-top {
+        color: white;
+        margin-top: 100px;
+        /* border: 1px solid blue; */
+    }
+
+    .front-text {
+        color: white;
+        margin-top: 15px;
+        /* border: 1px solid blue; */
+    }
+
+    .imgplacing {
+        margin-top: -420px;
+        margin-right: -110px;
+    }
+
+    .button {
+        cursor: pointer;
+        font-size: 2rem;
+        font-family: inherit;
+        font-weight: 700;
+        color: hsl(0, 0%, 100%);
+        background-color: hsl(0, 0%, 0%);
+        padding: 0.75em 1.25em;
+        border: 0;
+        border-radius: 0.89rem;
+        place-content: center;
+        float: right;
+        margin-right: 15px;
+        margin-top: 15%;
+        width: 200px;
+    }
+    /* ___________________________AboutMe___________________________ */
+    .background-about {
+        position: absolute;
+        min-width: 100%;
+        min-height: 100%;
+        background: url("/images/frontpage-blur.jpg") no-repeat;
+        background-size: cover;
+        z-index: -1;
+        filter: blur(50px);
+    }
+
+    .container-about {
+        min-width: 100%;
+        min-height: 82vh;
+        /* border: 10px dotted red; */
+    }
+
+    .about-text {
+        color: #ffffff;
+        margin-top: 26px;
+        margin-left: 80px;
+        font-size: 12px;
+        font-weight: bolder;
+        text-shadow: 0 0 10px #6b6b6b;
+    }
+
+    .text-position {
+        width: 300px;
+        height: 750px;
+        /* border: 1px dotted #0000ff; */
+    }
+
+    /* ___________________________Portfolio___________________________ */
+    .box {
+        display: table-row;
+        justify-content: center;
+        align-items: center;
+        height: 72vh;
+        margin-top: 50px;
+
+        /* border: 2px solid red; */
+    }
+
+    .card {
+        box-shadow: 10px 10px 10px rgba(0, 2, 2, 0.507);
+        width: 200px;
+        height: 327px;
+        margin: auto;
+        justify-content: center;
+        text-align: center;
+        margin-top: 60px;
+        margin-left: 60px;
+        margin-right: 10px;
+        margin-bottom: 50px;
+        background-color: #2e2e2e73;
+        border-radius: 10px;
+    }
+
+    .head {
+        color: rgb(255, 255, 255);
+    }
+
+    .title {
+        color: rgb(233, 233, 233);
+        font-size: 18px;
+    }
+
+    .cardbtn {
+        border: none;
+        outline: 0;
+        display: inline-block;
+        padding: 8px;
+        color: white;
+        background-color: #000000;
+        text-align: center;
+        cursor: pointer;
+        width: 100%;
+        font-size: 18px;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+    }
+
+    a {
+        text-decoration: none;
+        font-size: 22px;
+        color: #ffffff;
+    }
+
+    .cardbtn:hover {
+        opacity: 0.7;
+    }
+    .cardbtn a:hover {
+        opacity: 0.7;
+    }
+
+    .img-portfolio {
+        width: 200px;
+    }
+    .hr-portfolio {
+        margin-left: 50px;
+    }
+    /* ___________________________contact___________________________ */
+
+    .contact {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 5%;
+        width: 100%;
+        height: 100%;
+        padding: 20px 100px;
+    }
+
+    .contact:after {
+        content: "";
+        position: absolute;
+        left: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+        background: url("/images/happyfelix.png") no-repeat center;
+        background-size: cover;
+        z-index: -1;
+        filter: blur(50px);
+    }
+
+    .contact-box {
+        width: 1000px;
+        height: 580px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-color: #fff;
+        box-shadow: 0px 0px 19px 5px rgba(0, 0, 0, 0.19);
+    }
+
+    .right {
+        padding: 25px 40px;
+    }
+
+    .contact-header {
+        position: relative;
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+        font-size: 30px;
+        color: #000;
+    }
+
+    .contact-header:after {
+        content: "";
+        position: absolute;
+        left: 50%;
+        bottom: 0;
+        transform: translateX(-50%);
+        height: 4px;
+        width: 50px;
+        border-radius: 2px;
+        background-color: #2eafcc;
+    }
+}
 
 @media screen and (max-width: 320px) {
     /* ___________________________Frontpage___________________________ */
