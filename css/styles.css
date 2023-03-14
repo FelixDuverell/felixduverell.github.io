@@ -329,7 +329,7 @@ footer {
     }
 }
 
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1440px) {
     /* ___________________________Frontpage___________________________ */
     .background {
         position: absolute;
@@ -441,7 +441,7 @@ footer {
         opacity: 0.7;
     }
 }
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1024px) {
     /* ___________________________Frontpage___________________________ */
     .background {
         position: absolute;
