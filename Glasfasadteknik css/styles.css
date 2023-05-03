@@ -1,0 +1,1347 @@
+body {
+    background-color: #ffffff;
+}
+
+.fa-magnifying-glass {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    float: right;
+    transform: translateY(-50%);
+    background: #fff;
+}
+
+/* Text home page  */
+
+.main-homepage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-homepage {
+    width: 800px;
+    margin: 10%;
+    font-size: 20px;
+}
+
+/* Button */
+
+.btn {
+    background-color: #4c82d2;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    height: 100px;
+    width: 300px;
+    margin-bottom: 100px;
+    margin-left: 80rem;
+    font-size: 22px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #78b6e9;
+}
+
+/* About */
+
+.about-image {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50vw;
+    margin-top: -700px;
+    margin-bottom: 100px;
+}
+
+.about-size {
+    height: 300px;
+    width: 600px;
+    margin-left: 50px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.main-about {
+    width: 400px;
+    line-height: 20px;
+    margin: 12% 15%;
+}
+
+/* Windows */
+
+.window-container {
+    display: table;
+    flex-direction: column;
+    margin: 10% 15%;
+    width: 400px;
+    margin-top: 200px;
+    line-height: 20px;
+}
+.window-size1 {
+    position: absolute;
+    height: 200px;
+    width: 450px;
+    margin-left: 840px;
+    margin-top: -400px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.705);
+}
+
+.window-size2 {
+    position: absolute;
+    height: 200px;
+    width: 450px;
+    margin-top: -190px;
+    margin-left: 840px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.705);
+}
+
+.window-size3 {
+    position: absolute;
+    height: 410px;
+    width: 320px;
+    margin-top: -400px;
+    margin-left: 500px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.705);
+}
+/* Doors */
+
+.text-main {
+    width: 400px;
+    line-height: 20px;
+    margin: 12% 15%;
+}
+
+.door-section {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.door-image {
+    margin-left: 700px;
+    margin-top: -490px;
+    margin-bottom: 100px;
+}
+
+.door-size {
+    height: 350px;
+    width: 250px;
+    margin-left: 50px;
+    margin-top: -80px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.705);
+}
+
+/* Gates  */
+
+.gate-text-main {
+    width: 400px;
+    line-height: 20px;
+    margin: 12% 15%;
+}
+
+.gate-section {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.gate-image {
+    margin-left: 800px;
+    margin-top: -400px;
+    margin-bottom: 100px;
+}
+
+.gate-size {
+    height: 400px;
+    width: 350px;
+    margin-left: 50px;
+    margin-top: -80px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.705);
+}
+
+/* Contact  */
+
+.contact-section {
+    margin: 10% 28%;
+}
+.header-contact {
+    color: #4c82d2;
+    font-size: 55px;
+    font-family: "Open Sans" sans-serif;
+}
+.smalltext-contact {
+    font-size: 30px;
+}
+
+.row-text {
+    font-size: 18px;
+    font-family: "Inter", sans-serif;
+}
+
+.p-text-bold {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.contact-btn {
+    border: none;
+    border-radius: 30px;
+    width: 300px;
+    height: 50px;
+    color: #0031ae;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 700;
+    margin-top: 5%;
+}
+
+.contact-btn:hover {
+    color: #efefef;
+    background-color: #4895d5;
+}
+
+/* partners */
+
+.partners-mid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    width: 100%;
+}
+.partner-container {
+    width: 100%;
+    height: 100%;
+}
+
+.product-container2 {
+    position: relative;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 500px;
+    height: 200px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.705);
+}
+
+.hov-overlay2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0);
+    transition: background 0.5s ease;
+}
+
+.product-container2:hover .hov-overlay2 {
+    display: block;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.card-img2 {
+    position: absolute;
+    width: 500px;
+    height: 200px;
+    border-radius: 2px;
+    left: 0;
+}
+
+.product-container2:hover .title2 {
+    top: 90px;
+}
+
+.button-card2 {
+    position: absolute;
+    width: 500px;
+    left: 0;
+    top: 100px;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.35s ease;
+}
+
+.button-card2 a {
+    width: 200px;
+    padding: 12px 48px;
+    text-align: center;
+    color: white;
+    border: solid 2px white;
+    z-index: 1;
+    font-size: large;
+}
+
+.button-card2 a:hover {
+    border: solid 2px #3785c5;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.4s linear;
+}
+
+.product-container2:hover .button-card2 {
+    opacity: 1;
+}
+
+.product-overlay2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 90px;
+}
+
+/* Footer */
+footer {
+    margin: 0 auto;
+    padding: 0;
+}
+
+.ins-container {
+    display: flex;
+    justify-content: space-around;
+    background-color: #4895d5;
+    color: white;
+    height: 300px;
+    padding: 20px;
+}
+
+.text-section {
+    margin-top: 100px;
+}
+
+.bottom-section {
+    height: 50px;
+    background-color: #4895d5;
+}
+.footer-line {
+    width: 80%;
+    margin-left: 200px;
+}
+
+.cright {
+    float: right;
+    color: white;
+    margin-right: 180px;
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 1440px) {
+    .gate-text-main {
+        width: 400px;
+        line-height: 20px;
+        margin: 12% 15%;
+        margin-top: 300px;
+    }
+
+    .gate-section {
+        margin-top: 120px;
+        margin-bottom: 100px;
+    }
+
+    .gate-image {
+        margin-left: 600px;
+        margin-top: -550px;
+        margin-bottom: 100px;
+    }
+
+    .gate-size {
+        display: inline-block;
+        height: 300px;
+        width: 280px;
+        margin-top: 150px;
+        border-radius: 10px;
+    }
+
+    .door-section {
+        margin-top: 120px;
+        margin-bottom: 100px;
+    }
+
+    .door-image {
+        margin-left: 600px;
+        margin-top: -550px;
+        margin-bottom: 100px;
+    }
+
+    .door-size {
+        display: inline-block;
+        height: 300px;
+        width: 200px;
+        margin-top: 60px;
+        border-radius: 10px;
+    }
+
+    .window-container {
+        display: table;
+        flex-direction: column;
+        margin: 10% 15%;
+        width: 400px;
+        margin-top: 200px;
+        line-height: 20px;
+    }
+    .window-size1 {
+        position: absolute;
+        height: 200px;
+        width: 300px;
+        margin-left: 800px;
+        margin-top: -400px;
+        border-radius: 10px;
+        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.705);
+    }
+
+    .window-size2 {
+        position: absolute;
+        height: 200px;
+        width: 300px;
+        margin-top: -190px;
+        margin-left: 800px;
+        border-radius: 10px;
+        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.705);
+    }
+
+    .window-size3 {
+        position: absolute;
+        height: 410px;
+        width: 280px;
+        margin-top: -400px;
+        margin-left: 500px;
+        border-radius: 10px;
+        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.705);
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .about-image {
+        display: flex;
+        flex-direction: column;
+        margin-left: 50vw;
+        margin-top: -700px;
+        margin-bottom: 100px;
+    }
+
+    .about-size {
+        height: 300px;
+        width: 500px;
+        margin-left: 50px;
+        margin-top: 50px;
+        border-radius: 10px;
+    }
+
+    .gate-text-main {
+        margin-left: 200px;
+    }
+    .gate-section {
+        margin-top: 120px;
+        margin-bottom: 100px;
+    }
+
+    .gate-image {
+        margin-left: 580px;
+        margin-top: -550px;
+        margin-bottom: 100px;
+    }
+
+    .gate-size {
+        display: inline-block;
+        height: 300px;
+        width: 280px;
+        margin-top: 180px;
+        margin-left: 50px;
+        border-radius: 10px;
+    }
+
+    .text-main {
+        margin-left: 50px;
+    }
+
+    .door-section {
+        margin-top: 120px;
+        margin-bottom: 100px;
+        width: 1300px;
+    }
+
+    .door-image {
+        margin-left: 520px;
+        margin-top: -550px;
+        margin-bottom: 100px;
+    }
+
+    .door-size {
+        display: inline-block;
+        height: 300px;
+        width: 185px;
+        margin-top: 80px;
+        border-radius: 10px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .text-main {
+        width: 400px;
+        line-height: 20px;
+        margin-top: 250px;
+        margin-bottom: 250px;
+    }
+
+    .door-section {
+        display: inline-block;
+        margin-bottom: 100px;
+        margin-right: 200px;
+        margin: 50px;
+    }
+
+    .door-image {
+        display: flex;
+        flex-direction: column;
+        margin-left: 600px;
+        margin-top: -780px;
+        margin-bottom: 100px;
+    }
+
+    .door-size {
+        height: 300px;
+        width: 300px;
+        margin-left: 50px;
+        margin-top: 100px;
+        border-radius: 10px;
+    }
+
+    .size3 {
+        display: none;
+    }
+
+    .gate-text-main {
+        width: 400px;
+        line-height: 20px;
+        margin: 12% 15%;
+        margin-top: 300px;
+    }
+
+    .gate-image {
+        margin-left: 580px;
+        margin-top: -550px;
+        margin-bottom: 10px;
+    }
+
+    .gate-size {
+        display: inline-block;
+        height: 300px;
+        width: 180px;
+        margin-top: 180px;
+        border-radius: 10px;
+    }
+    .footer-line {
+        width: 80%;
+        margin-left: 140px;
+    }
+    .cright {
+        margin-right: 100px;
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .door-section {
+        margin: 25px;
+    }
+
+    .door-image {
+        display: flex;
+        flex-direction: column;
+        margin-left: 600px;
+        margin-top: -780px;
+        margin-bottom: 100px;
+    }
+
+    .door-size {
+        height: 300px;
+        width: 300px;
+        margin-left: 5px;
+        margin-top: 100px;
+        border-radius: 10px;
+    }
+
+    .gate-image {
+        display: flex;
+        flex-direction: column;
+        margin-left: 600px;
+        margin-top: -580px;
+    }
+
+    .gate-size {
+        height: 300px;
+        width: 250px;
+        margin-left: 5px;
+        margin-top: 60px;
+        border-radius: 10px;
+    }
+
+    .about-image {
+        display: flex;
+        flex-direction: column;
+        margin-left: 50px;
+        margin-top: -600px;
+        margin-bottom: 100px;
+    }
+
+    .about-size {
+        height: 300px;
+        width: 400px;
+        margin-left: 50px;
+        margin-top: 10px;
+        border-radius: 10px;
+    }
+}
+
+@media screen and (max-width: 944px) {
+    .text-main {
+        width: 300px;
+        line-height: 20px;
+        margin-top: 250px;
+        margin-bottom: 250px;
+    }
+    .door-section {
+        width: 800px;
+        margin: 5px;
+    }
+    .about-image {
+        display: flex;
+        flex-direction: column;
+        margin-left: 50vw;
+        margin-top: -600px;
+        margin-bottom: 100px;
+    }
+
+    .about-size {
+        height: 300px;
+        width: 400px;
+        margin-left: 50px;
+        margin-top: 10px;
+        border-radius: 10px;
+    }
+    .gate-image {
+        display: flex;
+        flex-direction: column;
+        margin-left: 600px;
+        margin-top: -580px;
+    }
+
+    .gate-size {
+        height: 300px;
+        width: 250px;
+        margin-left: 5px;
+        margin-top: 80px;
+        border-radius: 10px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .about-image {
+        display: flex;
+        flex-direction: column;
+        margin-left: 50vw;
+        margin-top: -500px;
+        margin-bottom: 100px;
+    }
+
+    .about-size {
+        height: 200px;
+        width: 300px;
+        margin-left: 100px;
+        margin-top: 10px;
+        border-radius: 10px;
+    }
+
+    .door-section {
+        display: inline-block;
+        margin-bottom: 100px;
+        margin-right: 200px;
+        margin: 50px;
+    }
+
+    .door-image {
+        display: flex;
+        flex-direction: column;
+        margin-left: 400px;
+        margin-top: -780px;
+        margin-bottom: 100px;
+    }
+
+    .door-size {
+        height: 300px;
+        width: 300px;
+        margin-left: 50px;
+        margin-top: 50px;
+        border-radius: 10px;
+    }
+
+    .gate-text-main {
+        width: 300px;
+    }
+
+    .gate-image {
+        display: inline-block;
+        margin-left: 400px;
+        margin-top: -780px;
+        margin-bottom: 100px;
+    }
+
+    .gate-size {
+        height: 300px;
+        width: 250px;
+        margin-left: 50px;
+        margin-top: 50px;
+        border-radius: 10px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .text-main {
+        width: 300px;
+        line-height: 20px;
+        margin-top: 250px;
+        margin-bottom: 250px;
+    }
+    .door-section {
+        display: inline-block;
+        margin-bottom: 100px;
+        margin-right: 200px;
+        margin: 25px;
+    }
+
+    .door-image {
+        display: flex;
+        flex-direction: column;
+        margin-left: 400px;
+        margin-top: -800px;
+        margin-bottom: 100px;
+    }
+
+    .door-size {
+        height: 300px;
+        width: 250px;
+        margin-left: 50px;
+        margin-top: 50px;
+        border-radius: 10px;
+    }
+    .about-image {
+        display: flex;
+        flex-direction: column;
+        margin-left: 50vw;
+        margin-top: -520px;
+        margin-bottom: 100px;
+    }
+
+    .about-size {
+        height: 200px;
+        width: 220px;
+        margin-left: 100px;
+        margin-top: 10px;
+        border-radius: 10px;
+    }
+    .main-about {
+        width: 300px;
+        line-height: 20px;
+        margin: 12% 15%;
+    }
+    .product-overlay2 {
+        display: table-row;
+    }
+    .product-container2 {
+        position: relative;
+        margin-top: 200px;
+        margin-bottom: 100px;
+        width: 765px;
+        height: 300px;
+        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.705);
+        margin-left: 0px;
+    }
+
+    .card-img2 {
+        position: absolute;
+        width: 768px;
+        height: 300px;
+        border-radius: 2px;
+        left: 0;
+    }
+
+    .title2 {
+        position: absolute;
+        width: 768px;
+        left: 0;
+        top: 120px;
+        text-align: center;
+        text-transform: uppercase;
+        color: white;
+        z-index: 1;
+        transition: top 0.5s ease;
+    }
+
+    .button-card2 {
+        position: absolute;
+        width: 768px;
+        left: 0;
+        top: 180px;
+        text-align: center;
+        opacity: 0;
+        transition: opacity 0.35s ease;
+    }
+    .footer-line {
+        width: 100%;
+        margin-left: 0px;
+    }
+    .cright {
+        margin-right: 200px;
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .text-main {
+        width: 250px;
+        line-height: 20px;
+        margin-top: 250px;
+        margin-bottom: 250px;
+        margin-left: 50px;
+    }
+    .door-section {
+        display: inline-block;
+        margin-bottom: 100px;
+        margin-right: 200px;
+        margin: 25px;
+    }
+
+    .door-image {
+        display: flex;
+        flex-direction: column;
+        margin-left: 300px;
+        margin-top: -800px;
+        margin-bottom: 100px;
+    }
+
+    .door-size {
+        height: 300px;
+        width: 200px;
+        margin-left: 50px;
+        margin-top: 50px;
+        border-radius: 10px;
+    }
+
+    .about-image {
+        display: table-row;
+        flex-direction: column;
+        margin-left: 50vw;
+        margin-top: -450px;
+        margin-bottom: 100px;
+    }
+
+    .about-size {
+        height: 200px;
+        width: 220px;
+        margin-left: 75px;
+        margin-top: 10px;
+        border-radius: 10px;
+    }
+    .main-about {
+        width: 300px;
+        line-height: 20px;
+        margin: 5%;
+    }
+
+    .partners-mid {
+        font-size: 48px;
+    }
+    .product-overlay2 {
+        display: table-row;
+    }
+    .product-container2 {
+        position: relative;
+        margin-top: 200px;
+        margin-bottom: 100px;
+        width: 598px;
+        height: 300px;
+        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.705);
+        margin-left: 0px;
+    }
+
+    .card-img2 {
+        position: absolute;
+        width: 600px;
+        height: 300px;
+        border-radius: 2px;
+        left: 0;
+    }
+
+    .title2 {
+        position: absolute;
+        width: 600px;
+        left: 0;
+        top: 120px;
+        text-align: center;
+        text-transform: uppercase;
+        color: white;
+        z-index: 1;
+        transition: top 0.5s ease;
+    }
+
+    .button-card2 {
+        position: absolute;
+        width: 600px;
+        left: 0;
+        top: 180px;
+        text-align: center;
+        opacity: 0;
+        transition: opacity 0.35s ease;
+    }
+    .footer-line {
+        width: 100%;
+        margin-left: 0px;
+    }
+    .cright {
+        margin-right: 200px;
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .text-main {
+        width: 300px;
+        line-height: 20px;
+        margin-top: 250px;
+        margin-bottom: 20px;
+        margin-left: 80px;
+    }
+    .door-image {
+        display: table-row;
+        margin-bottom: 100px;
+    }
+
+    .door-size {
+        height: 300px;
+        width: 250px;
+        margin-left: 100px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .about-image {
+        display: table-row;
+        margin-left: 50vw;
+        margin-bottom: 100px;
+    }
+
+    .about-size {
+        height: 200px;
+        width: 300px;
+        margin-left: 75px;
+        margin-top: 10px;
+        border-radius: 10px;
+    }
+    .main-about {
+        width: 300px;
+        line-height: 20px;
+        margin: 10%;
+        margin-left: 80px;
+    }
+    .partners-mid {
+        font-size: 36px;
+    }
+    .product-overlay2 {
+        display: table-row;
+    }
+    .product-container2 {
+        position: relative;
+        margin-top: 200px;
+        margin-bottom: 100px;
+        width: 423px;
+        height: 200px;
+        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.705);
+        margin-left: 0px;
+    }
+
+    .card-img2 {
+        position: absolute;
+        width: 425px;
+        height: 200px;
+        border-radius: 2px;
+        left: 0;
+    }
+
+    .title2 {
+        position: absolute;
+        width: 425px;
+        left: 0;
+        top: 100px;
+        text-align: center;
+        text-transform: uppercase;
+        color: white;
+        z-index: 1;
+        transition: top 0.5s ease;
+    }
+
+    .button-card2 {
+        position: absolute;
+        width: 425px;
+        left: 0;
+        top: 180px;
+        text-align: center;
+        opacity: 0;
+        transition: opacity 0.35s ease;
+    }
+
+    .ins-container {
+        display: table-row;
+        justify-content: space-around;
+        background-color: #4895d5;
+        color: white;
+        height: 300px;
+        width: 800px;
+        padding: 20px;
+    }
+    .text-section {
+        margin-top: 100px;
+        margin-left: 150px;
+        margin-bottom: 50px;
+        width: 275px;
+    }
+    .footer-line {
+        width: 100%;
+        margin-left: 0px;
+    }
+    .cright {
+        margin-right: 100px;
+        margin-top: 10px;
+    }
+
+    /* Contact */
+
+    .contact-btn {
+        margin-left: -50px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .text-main {
+        width: 300px;
+        line-height: 20px;
+        margin-top: 250px;
+        margin-bottom: 20px;
+        margin-left: 50px;
+    }
+    .door-image {
+        display: table-row;
+        margin-bottom: 100px;
+    }
+
+    .door-size {
+        height: 300px;
+        width: 250px;
+        margin-left: 70px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .about-image {
+        display: table-row;
+        margin-left: 50vw;
+        margin-bottom: 100px;
+    }
+
+    .about-size {
+        height: 200px;
+        width: 300px;
+        margin-left: 50px;
+        margin-top: 10px;
+        border-radius: 10px;
+    }
+    .main-about {
+        width: 280px;
+        line-height: 20px;
+        margin: 50px;
+    }
+
+    .partners-mid {
+        font-size: 32px;
+    }
+    .product-overlay2 {
+        display: table-row;
+    }
+    .product-container2 {
+        position: relative;
+        margin-top: 200px;
+        margin-bottom: 100px;
+        width: 373px;
+        height: 200px;
+        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.705);
+        margin-left: 0px;
+    }
+
+    .card-img2 {
+        position: absolute;
+        width: 375px;
+        height: 200px;
+        border-radius: 2px;
+        left: 0;
+    }
+
+    .title2 {
+        position: absolute;
+        width: 375px;
+        left: 0;
+        top: 120px;
+        text-align: center;
+        text-transform: uppercase;
+        color: white;
+        z-index: 1;
+        transition: top 0.5s ease;
+    }
+
+    .button-card2 {
+        position: absolute;
+        width: 375px;
+        left: 0;
+        top: 100px;
+        text-align: center;
+        opacity: 0;
+        transition: opacity 0.35s ease;
+    }
+
+    .text-section {
+        margin-top: 100px;
+        margin-left: 110px;
+        margin-bottom: 50px;
+        width: 265px;
+    }
+    .footer-line {
+        width: 100%;
+        margin-left: 0px;
+    }
+    .cright {
+        margin-right: 80px;
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .text-main {
+        width: 250px;
+        line-height: 20px;
+        margin-top: 250px;
+        margin-bottom: 20px;
+        margin-left: 50px;
+    }
+    .door-image {
+        display: table-row;
+        margin-bottom: 100px;
+    }
+
+    .door-size {
+        height: 300px;
+        width: 220px;
+        margin-left: 55px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .about-image {
+        display: table-row;
+        margin-left: 50vw;
+        margin-bottom: 100px;
+    }
+
+    .about-size {
+        height: 200px;
+        width: 280px;
+        margin-left: 15px;
+        margin-top: 10px;
+        border-radius: 10px;
+    }
+    .main-about {
+        width: 270px;
+        line-height: 20px;
+        margin: 25px;
+    }
+
+    .partners-mid {
+        font-size: 26px;
+    }
+    .product-overlay2 {
+        display: table-row;
+    }
+    .product-container2 {
+        position: relative;
+        margin-top: 200px;
+        margin-bottom: 100px;
+        width: 318px;
+        height: 200px;
+        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.705);
+        margin-left: 0px;
+    }
+
+    .card-img2 {
+        position: absolute;
+        width: 320px;
+        height: 200px;
+        border-radius: 2px;
+        left: 0;
+    }
+
+    .title2 {
+        position: absolute;
+        width: 320px;
+        left: 0;
+        top: 120px;
+        text-align: center;
+        text-transform: uppercase;
+        color: white;
+        z-index: 1;
+        transition: top 0.5s ease;
+    }
+
+    .button-card2 {
+        position: absolute;
+        width: 320px;
+        left: 0;
+        top: 100px;
+        text-align: center;
+        opacity: 0;
+        transition: opacity 0.35s ease;
+    }
+
+    .text-section {
+        margin-top: 100px;
+        margin-left: 100px;
+        margin-bottom: 50px;
+        width: 220px;
+    }
+    .footer-line {
+        width: 100%;
+        margin-left: 0px;
+    }
+    .cright {
+        margin-right: 50px;
+        margin-top: 10px;
+    }
+
+    .contact-btn {
+        margin-left: -80px;
+    }
+}
+
+@media screen and (max-width: 280px) {
+    .text-main {
+        width: 200px;
+        line-height: 20px;
+        margin-top: 250px;
+        margin-bottom: 20px;
+        margin-left: 50px;
+    }
+
+    .door-size {
+        height: 300px;
+        width: 200px;
+        margin-left: 40px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .about-image {
+        display: table-row;
+        margin-left: 50vw;
+        margin-bottom: 100px;
+    }
+
+    .about-size {
+        height: 200px;
+        width: 260px;
+        margin-left: 10px;
+        margin-top: 10px;
+        border-radius: 10px;
+    }
+    .main-about {
+        width: 250px;
+        line-height: 20px;
+        margin: 15px;
+    }
+
+    .partners-mid {
+        font-size: 24px;
+    }
+    .product-overlay2 {
+        display: table-row;
+    }
+    .product-container2 {
+        position: relative;
+        margin-top: 200px;
+        margin-bottom: 100px;
+        width: 278px;
+        height: 200px;
+        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.705);
+        margin-left: 0px;
+    }
+
+    .card-img2 {
+        position: absolute;
+        width: 280px;
+        height: 200px;
+        border-radius: 2px;
+        left: 0;
+    }
+
+    .title2 {
+        position: absolute;
+        width: 280px;
+        left: 0;
+        top: 120px;
+        text-align: center;
+        text-transform: uppercase;
+        color: white;
+        z-index: 1;
+        transition: top 0.5s ease;
+    }
+
+    .button-card2 {
+        position: absolute;
+        width: 280px;
+        left: 0;
+        top: 100px;
+        text-align: center;
+        opacity: 0;
+        transition: opacity 0.35s ease;
+    }
+
+    .text-section {
+        margin-top: 100px;
+        margin-left: 80px;
+        margin-bottom: 50px;
+        width: 200px;
+    }
+    .footer-line {
+        width: 100%;
+        margin-left: 0px;
+    }
+    .cright {
+        margin-right: 35px;
+        margin-top: 10px;
+    }
+
+    .contact-btn {
+        border: none;
+        border-radius: 30px;
+        width: 200px;
+        height: 50px;
+        color: #0031ae;
+        cursor: pointer;
+        font-size: 15px;
+        font-weight: 700;
+        margin-top: 5%;
+    }
+
+    .contact-btn {
+        margin-left: -40px;
+    }
+}

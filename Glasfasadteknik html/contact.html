@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Anek+Devanagari&family=K2D&display=swap"
+            rel="stylesheet"
+        />
+        <!-- Animations  -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+        />
+        <!-- Favicon -->
+        <link rel="icon" href="/images/fav.png" type="image/png" />
+        <link rel="shortcut icon" href="/images/fav.png" type="image/png" />
+        <!-- Font Awesome -->
+        <script
+            src="https://kit.fontawesome.com/05341947df.js"
+            crossorigin="anonymous"
+        ></script>
+        <link rel="stylesheet" href="/Glasfasadteknik css/navbar.css" />
+        <link rel="stylesheet" href="/Glasfasadteknik css/imageslider.css" />
+        <link rel="stylesheet" href="/Glasfasadteknik css/styles.css" />
+        <title>KONTAKT - Glas & Fasadteknik</title>
+    </head>
+    <body>
+        <div class="subdown">
+            <nav>
+                <input type="checkbox" id="check" />
+                <label for="check">
+                    <i class="fas fa-bars" id="btn"></i>
+                    <i class="fas fa-times" id="cancel"></i>
+                </label>
+                <a href="/Glasfasadteknik html/home.html"
+                    ><img
+                        class="navlogo"
+                        src="/images/Glas&fasadteknik png.png"
+                        alt="logo"
+                /></a>
+                <ul>
+                    <li>
+                        <a href="/Glasfasadteknik html/products.html"
+                            >Produkter</a
+                        >
+                        <ul>
+                            <li>
+                                <a href="/Glasfasadteknik html/windows.html"
+                                    >Fönster</a
+                                >
+                            </li>
+                            <li>
+                                <a href="/Glasfasadteknik html/gates.html"
+                                    >Portar</a
+                                >
+                            </li>
+                            <li>
+                                <a href="/Glasfasadteknik html/doors.html"
+                                    >Dörrar</a
+                                >
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">Partners</a>
+                        <ul>
+                            <li>
+                                <a href="/Glasfasadteknik html/suppliers.html"
+                                    >Leverantörer</a
+                                >
+                            </li>
+                            <li class="smbprtnr">
+                                <a href="/Glasfasadteknik html/partners.html"
+                                    >Sammarbetspartners</a
+                                >
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="/Glasfasadteknik html/about.html">Om Oss</a>
+                    </li>
+                    <li>
+                        <a href="/Glasfasadteknik html/contact.html">Kontakt</a>
+                    </li>
+                    <li><a href="/index.html">BACK TO PORTFOLIO</a></li>
+                </ul>
+            </nav>
+        </div>
+        <hr />
+        <!--image slider start-->
+        <div class="container" data-autoplay="true">
+            <div class="slide">
+                <img src="/images/slideshow1.jpg" alt="svart dörr" />
+            </div>
+            <div class="slide">
+                <img src="/images/slideshow2.jpg" alt="port" />
+            </div>
+
+            <button id="carousel-btn" class="prev" onclick="prev()">
+                <i class="fa fa-angle-left"></i>
+            </button>
+            <button id="carousel-btn" class="next" onclick="next()">
+                <i class="fa fa-angle-right"></i>
+            </button>
+        </div>
+        <div class="dots_container" id="indicator"></div>
+        <!--image slider end-->
+
+        <!--main contact-->
+        <div class="contact-section">
+            <h1 class="header-contact">Behöver du hjälp?</h1>
+            <p class="smalltext-contact">
+                Tveka inte att kontakta oss! Vi är alltid redo att hjälpa till
+                och svara på dina frågor.
+            </p>
+            <br />
+            <div class="row-text">
+                <p class="p-text-bold">Regionkontor:</p>
+                <br />
+                <p>Badvägen 18</p>
+                <br />
+                <p>623 65 Ljungarn, Gotland</p>
+                <br />
+
+                <p class="p-text-bold">Huvudkontor:</p>
+                <br />
+                <p>Andesitgatan 14K</p>
+                <br />
+                <p>254 68 Helsingborg</p>
+                <div>
+                    <a id="email" href="tel:0768-815 900">
+                        <button class="contact-btn">0768-815 900</button>
+                    </a>
+                    <a
+                        id="email"
+                        href="mailto:info@glas-fasadteknik.se"
+                        target="_blank"
+                    >
+                        <button class="contact-btn">
+                            info@glas-fasadteknik.se
+                        </button>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!--Footer-->
+        <footer>
+            <div class="ins-container">
+                <div class="text-section">
+                    <h4>Huvudkontor:</h4>
+                    <br />
+                    <p>Andesitgatan 14K</p>
+                    <br />
+                    <p>254 68 Helsingborg</p>
+                </div>
+                <div class="text-section">
+                    <h4>Regionkontor:</h4>
+                    <br />
+                    <p>Badvägen 18</p>
+                    <br />
+                    <p>623 65 Ljungarn, Gotland</p>
+                </div>
+
+                <div class="text-section">
+                    <h4>Kontakt:</h4>
+                    <br />
+                    <p>Telefon:</p>
+                    <p>0768-815 900</p>
+                    <br />
+                    <p>Mail:</p>
+                    <p>info@glas-fasadteknik.se</p>
+                </div>
+            </div>
+            <div class="bottom-section">
+                <hr class="footer-line" />
+                <p class="cright">
+                    Copyright Glas & Fasadteknik | Design by Duverell
+                </p>
+            </div>
+        </footer>
+        <script src="/js/imageslider.js"></script>
+    </body>
+</html>

@@ -12,7 +12,7 @@ body {
     align-items: center;
     text-align: center;
     flex-direction: column;
-    background-image: url(/images/bhromaon/girloncliff.png);
+    background-image: url(/images/bhromaon\ img/girloncliff.png);
     background-size: cover;
     background-position: center;
     min-height: 820px;
@@ -107,7 +107,7 @@ nav ul li a:hover {
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-image: url(/images/bhromaon/city.png);
+    background-image: url(/images/bhromaon\ img/city.png);
     background-size: cover;
     background-position: center;
     min-height: 685px;
@@ -187,7 +187,7 @@ nav ul li a:hover {
     grid-template-columns: repeat(8, 1fr);
     grid-template-rows: repeat(3, 1fr);
     grid-gap: 15px;
-    background-image: url(/images/bhromaon/sunset.png);
+    background-image: url(/images/bhromaon\ img/sunset.png);
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -216,7 +216,7 @@ nav ul li a:hover {
     grid-template-columns: repeat(8, 1fr);
     grid-template-rows: repeat(3, 1fr);
     grid-gap: 15px;
-    background-image: url(/images/bhromaon/sunset.png);
+    background-image: url(/images/bhromaon\ img/villa.png);
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -241,7 +241,7 @@ nav ul li a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(/images/bhromaon/manonrock.png);
+    background-image: url(/images/bhromaon\ img/manonrock.png);
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -323,7 +323,7 @@ nav ul li a:hover {
         align-items: center;
         text-align: center;
         flex-direction: column;
-        background-image: url(/images/bhromaon/girloncliff.png);
+        /* background-image: url(/images/bhromaon/girloncliff.png); */
         background-size: cover;
         background-position: center;
         min-height: 820px;
@@ -419,7 +419,7 @@ nav ul li a:hover {
         align-items: center;
         text-align: center;
         flex-direction: column;
-        background-image: url(/images/bhromaon/city.png);
+        /* background-image: url(/images/bhromaon/city.png); */
         background-size: cover;
         background-position: center;
         min-height: 820px;
@@ -496,7 +496,7 @@ nav ul li a:hover {
     .image-three {
         display: flex;
         flex-direction: column;
-        background-image: url(/images/villa.png);
+        /* background-image: url(/images/villa.png); */
         background-size: cover;
         background-position: center;
         width: 100%;
@@ -523,7 +523,7 @@ nav ul li a:hover {
     .image-four {
         display: flex;
         flex-direction: column;
-        background-image: url(/images/sunset.png);
+        /* background-image: url(/images/sunset.png); */
         background-size: cover;
         background-position: center;
         width: 100%;
@@ -548,7 +548,7 @@ nav ul li a:hover {
         display: flex;
         justify-content: center;
         align-items: center;
-        background-image: url(/images/bhromaon/manonrock.png);
+        /* background-image: url(/images/bhromaon/manonrock.png); */
         background-size: cover;
         background-position: center;
         width: 100%;
@@ -634,7 +634,7 @@ nav ul li a:hover {
         align-items: center;
         text-align: center;
         flex-direction: column;
-        background-image: url(/images/bhromaon/girloncliff.png);
+        /* background-image: url(/images/bhromaon/girloncliff.png); */
         background-size: cover;
         background-position: center;
         min-height: 820px;
@@ -730,7 +730,7 @@ nav ul li a:hover {
         align-items: center;
         text-align: center;
         flex-direction: column;
-        background-image: url(/images/bhromaon/city.png);
+        /* background-image: url(/images/bhromaon/city.png); */
         background-size: cover;
         background-position: center;
         min-height: 820px;
@@ -808,7 +808,7 @@ nav ul li a:hover {
     .image-three {
         display: flex;
         flex-direction: column;
-        background-image: url(/images/bhromaon/sunset.png);
+        /* background-image: url(/images/bhromaon/sunset.png); */
         background-size: cover;
         background-position: center;
         width: 100%;
@@ -835,7 +835,7 @@ nav ul li a:hover {
     .image-four {
         display: flex;
         flex-direction: column;
-        background-image: url(/images/bhromaon/sunset.png);
+        /* background-image: url(/images/bhromaon/sunset.png); */
         background-size: cover;
         background-position: center;
         width: 100%;
@@ -860,7 +860,7 @@ nav ul li a:hover {
         display: flex;
         justify-content: center;
         align-items: center;
-        background-image: url(/images/bhromaon/manonrock.png);
+        /* background-image: url(/images/bhromaon/manonrock.png); */
         background-size: cover;
         background-position: center;
         width: 100%;

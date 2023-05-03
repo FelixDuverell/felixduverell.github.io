@@ -1,0 +1,652 @@
+body {
+    font-family: Helvetica 47 Light;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+nav {
+    height: 120px;
+    background: #ffffffee;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 500;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.315);
+}
+
+nav img {
+    width: 300px;
+    height: auto;
+    position: absolute;
+    top: 17px;
+    left: 12%;
+}
+
+.navlogo {
+    width: 300px;
+    position: absolute;
+    top: 17px;
+    left: 12%;
+    cursor: pointer;
+}
+/* ---------------- */
+
+nav li {
+    display: inline-block;
+    position: relative;
+}
+
+nav a {
+    display: block;
+    padding: 0 20px;
+    line-height: 40px;
+    color: #333;
+    text-decoration: none;
+    margin-top: 35px;
+}
+
+nav ul {
+    float: right;
+    margin-right: 25px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 10px 20px;
+}
+
+nav ul li a {
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    top: 60px;
+}
+
+nav ul li a:hover {
+    color: #3785c5;
+}
+
+nav ul ul {
+    position: absolute;
+    top: 75px;
+    left: 0;
+    /* background-color: #ffffff8f; */
+    background: #ffffffee;
+    display: none;
+}
+
+nav ul li:hover > ul {
+    display: block;
+}
+
+nav ul ul li {
+    display: block;
+    width: 200px;
+}
+
+.smbprtnr {
+    width: 260px;
+}
+
+nav ul ul a {
+    line-height: 30px;
+    padding: 0 10px;
+    color: #333;
+}
+
+nav ul ul a:hover {
+    background-color: #ffffff00;
+}
+
+nav ul li a:before {
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 100%;
+    background: #3785c5;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.4s linear;
+}
+
+nav ul li a:hover:before {
+    transform: scaleX(1);
+    transform-origin: left;
+}
+
+/* __________________Hamburger menu__________________ */
+
+label #btn,
+label #cancel {
+    color: #000;
+    font-size: 30px;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+label #btn:hover,
+label #cancel:hover {
+    color: #3785c5;
+}
+
+#check {
+    display: none;
+}
+
+@media (max-width: 1200px) {
+    nav img {
+        left: 8%;
+    }
+    nav ul li {
+        display: none;
+    }
+    label #btn,
+    label #cancel {
+        color: #000;
+        font-size: 30px;
+        float: right;
+        line-height: 80px;
+        margin-right: 40px;
+        cursor: pointer;
+        display: none;
+    }
+    label #btn:hover,
+    label #cancel:hover {
+        color: #3785c5;
+    }
+
+    label #btn {
+        display: block;
+    }
+
+    nav {
+        background: #fff;
+    }
+
+    ul {
+        position: absolute;
+        width: 100%;
+        height: 100vh;
+        top: 110px;
+        left: -100%;
+        background: white;
+        text-align: center;
+        transition: all 0.5s;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+
+    nav ul li a {
+        font-size: 20px;
+    }
+
+    nav ul ul li {
+        display: none;
+    }
+
+    #check:checked ~ ul {
+        left: 0;
+    }
+
+    #check:checked ~ label #btn {
+        display: none;
+    }
+
+    #check:checked ~ label #cancel {
+        display: block;
+    }
+}
+@media (max-width: 1118px) {
+    nav img {
+        left: 8%;
+    }
+    nav ul li {
+        display: none;
+    }
+    label #btn,
+    label #cancel {
+        color: #000;
+        font-size: 30px;
+        float: right;
+        line-height: 80px;
+        margin-right: 40px;
+        cursor: pointer;
+        display: none;
+    }
+    label #btn:hover,
+    label #cancel:hover {
+        color: #3785c5;
+    }
+
+    label #btn {
+        display: block;
+    }
+
+    nav {
+        background: #fff;
+    }
+
+    ul {
+        position: absolute;
+        width: 100%;
+        height: 100vh;
+        top: 110px;
+        left: -100%;
+        background: white;
+        text-align: center;
+        transition: all 0.5s;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+
+    nav ul li a {
+        font-size: 20px;
+    }
+
+    nav ul ul li {
+        display: none;
+    }
+    #check:checked ~ ul {
+        left: 0;
+    }
+
+    #check:checked ~ label #btn {
+        display: none;
+    }
+
+    #check:checked ~ label #cancel {
+        display: block;
+    }
+}
+
+@media (max-width: 944px) {
+    nav {
+        background: #fff;
+    }
+
+    nav img {
+        left: 6%;
+        top: 20px;
+    }
+
+    label #btn {
+        display: block;
+    }
+
+    nav {
+        background: #fff;
+    }
+
+    ul {
+        position: absolute;
+        width: 100%;
+        height: 100vh;
+        top: 110px;
+        left: -100%;
+        background: white;
+        text-align: center;
+        transition: all 0.5s;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+
+    nav ul li a {
+        font-size: 20px;
+    }
+
+    nav ul ul li {
+        display: none;
+    }
+
+    #check:checked ~ ul {
+        left: 0;
+    }
+
+    #check:checked ~ label #btn {
+        display: none;
+    }
+
+    #check:checked ~ label #cancel {
+        display: block;
+    }
+}
+
+@media (max-width: 860px) {
+    label #btn {
+        display: block;
+    }
+
+    nav {
+        background: #fff;
+    }
+
+    ul {
+        position: absolute;
+        width: 100%;
+        height: 100vh;
+        top: 110px;
+        left: -100%;
+        background: white;
+        text-align: center;
+        transition: all 0.5s;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+
+    nav ul li a {
+        font-size: 20px;
+    }
+
+    nav ul ul li {
+        display: none;
+    }
+
+    #check:checked ~ ul {
+        left: 0;
+    }
+
+    #check:checked ~ label #btn {
+        display: none;
+    }
+
+    #check:checked ~ label #cancel {
+        display: block;
+    }
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+    nav {
+        height: auto;
+    }
+    nav img {
+        position: relative;
+        width: 200px;
+        left: 10px;
+    }
+    .navlogo {
+        position: relative;
+        width: 200px;
+        left: 10px;
+    }
+    nav ul {
+        float: none;
+        margin-right: 0;
+        text-align: center;
+        width: 100%;
+    }
+    nav ul li {
+        display: block;
+        line-height: 50px;
+        margin: 10px 0;
+    }
+    nav ul li a {
+        margin-top: 0;
+    }
+    nav ul ul {
+        position: static;
+        display: none;
+    }
+    nav ul ul li {
+        display: none;
+    }
+    label #btn {
+        display: block;
+    }
+
+    label #cancel {
+        display: none;
+    }
+    #check:checked ~ ul {
+        display: block;
+        position: absolute;
+        top: 120px;
+        left: 0;
+        background-color: #ffffff;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    nav {
+        height: auto;
+    }
+
+    nav img,
+    .navlogo {
+        width: 200px;
+        position: absolute;
+        top: 17px;
+        left: 12%;
+        cursor: pointer;
+    }
+
+    nav ul {
+        float: none;
+        margin: 0;
+        text-align: center;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 5px 0;
+    }
+
+    nav ul li a {
+        line-height: 30px;
+        margin-top: 0;
+    }
+
+    nav ul ul {
+        position: static;
+        display: none;
+    }
+
+    label #btn {
+        display: block;
+    }
+
+    nav ul ul {
+        display: none;
+        position: absolute;
+        transform: translateX(-50%);
+        background-color: #ffffff8f;
+        top: 100%;
+        left: 50%;
+        min-width: 200px;
+        padding: 10px;
+        min-width: 200px;
+        box-sizing: border-box;
+        border-radius: 5px;
+        margin-top: 10px;
+    }
+
+    nav ul ul li {
+        display: none;
+    }
+
+    nav ul ul a {
+        line-height: 40px;
+        padding: 0 20px;
+        color: #333;
+        display: block;
+    }
+
+    nav ul ul a:hover {
+        background-color: #3785c5;
+        color: #fff;
+    }
+
+    .smbprtnr {
+        width: 100%;
+        padding: 10px 20px;
+        box-sizing: border-box;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    nav {
+        max-width: 768px;
+    }
+
+    nav ul ul li {
+        display: none;
+    }
+
+    #check:checked ~ ul {
+        left: 0;
+    }
+
+    #check:checked ~ label #btn {
+        display: none;
+    }
+
+    #check:checked ~ label #cancel {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    nav {
+        width: 600px;
+    }
+
+    nav ul ul li {
+        display: none;
+    }
+
+    #check:checked ~ ul {
+        left: 0;
+    }
+
+    #check:checked ~ label #btn {
+        display: none;
+    }
+
+    #check:checked ~ label #cancel {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    nav {
+        max-width: 425px;
+    }
+
+    nav ul ul li {
+        display: none;
+    }
+
+    #check:checked ~ ul {
+        left: 0;
+    }
+
+    #check:checked ~ label #btn {
+        display: none;
+    }
+
+    #check:checked ~ label #cancel {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    nav {
+        max-width: 375px;
+    }
+
+    nav ul ul li {
+        display: none;
+    }
+
+    #check:checked ~ ul {
+        left: 0;
+    }
+
+    #check:checked ~ label #btn {
+        display: none;
+    }
+
+    #check:checked ~ label #cancel {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    nav {
+        max-width: 320px;
+    }
+
+    nav ul ul li {
+        display: none;
+    }
+
+    #check:checked ~ ul {
+        left: 0;
+    }
+
+    #check:checked ~ label #btn {
+        display: none;
+    }
+
+    #check:checked ~ label #cancel {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 280px) {
+    nav {
+        max-width: 280px;
+    }
+
+    nav img {
+        left: 1%;
+    }
+
+    nav ul ul li {
+        display: none;
+    }
+
+    #check:checked ~ ul {
+        left: 0;
+    }
+
+    #check:checked ~ label #btn {
+        display: none;
+    }
+
+    #check:checked ~ label #cancel {
+        display: block;
+    }
+
+    .navlogo {
+        width: 170px;
+    }
+}

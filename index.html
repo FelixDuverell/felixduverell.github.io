@@ -4,82 +4,164 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- icons-->
         <link
-            href="https://fonts.googleapis.com/css2?family=K2D&display=swap"
+            rel="stylesheet"
+            href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+        />
+        <!-- google fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Dosis:wght@500;600;700;800&family=Inter:wght@300;400;500;600;700;800;900&family=K2D:wght@600&display=swap"
             rel="stylesheet"
         />
-        <link rel="stylesheet" href="/css/navbar.css" />
-        <link rel="stylesheet" href="/css/button.css" />
-        <link rel="stylesheet" href="/css/styles.css" />
-        <link rel="shortcut icon" type="image/png" href="images/favicon.png" />
-        <title>Duverell</title>
+        <!-- css-->
+        <link rel="stylesheet" href="style.css" />
+        <title>Portfolio</title>
     </head>
-
     <body>
-        <div class="background"></div>
-        <div>
-            <nav class="navbar">
-                <h2>
-                    <a class="navlogo" href="/index.html">DUVERELL</a>
-                </h2>
-                <a href="#" class="toggle-button">
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                </a>
-                <div class="navbar-links">
-                    <ul>
-                        <li><a href="/html/about.html">About Us</a></li>
-                        <li><a href="/html/portfolio.html">Portfolio</a></li>
-                        <li><a href="/html/contact.html">Contact</a></li>
-                    </ul>
-                </div>
-            </nav>
-        </div>
-        <div class="container-home">
-            <div class="container">
-                <h2 class="front-text-top">
-                    A short introduction of us and our work. We hope you like
-                    what you see.
-                </h2>
-                <h2 class="front-text">
-                    But remember, everything is not what meets the eye ;)
-                </h2>
-                <hr class="underline" />
-                <div>
-                    <img
-                        class="imgplacing"
-                        src="/images/felixportfolio.png"
-                        alt="bild på mig"
-                    />
-                </div>
-                <div>
-                    <button class="button glow-effect">
-                        <a class="btn-text" href="/html/about.html"
-                            >Learn More</a
-                        >
-                        <svg class="glow-container">
-                            <rect
-                                pathLength="100"
-                                stroke-linecap="round"
-                                class="glow-blur"
-                            ></rect>
-                            <rect
-                                pathLength="100"
-                                stroke-linecap="round"
-                                class="glow-line"
-                            ></rect>
-                        </svg>
-                    </button>
-                </div>
-            </div>
-        </div>
+        <header>
+            <a href="#" class="logo"
+                ><img class="size" src="/images/duverell-logo.png" alt="logo"
+            /></a>
+            <div class="bx bx-menu" id="menu-icon"></div>
 
-        <footer>
-            <div>
-                <h1 class="footer-text">DUVERELL</h1>
+            <nav>
+                <ul class="navlist">
+                    <li>
+                        <a href="#home" class="underline-animation">Home</a>
+                    </li>
+                    <li>
+                        <a href="#about" class="underline-animation">About</a>
+                    </li>
+                    <li>
+                        <a href="#portfolio" class="underline-animation"
+                            >Portfolio</a
+                        >
+                    </li>
+                    <li>
+                        <a href="#contact" class="underline-animation"
+                            >Contact</a
+                        >
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <!--Main section-->
+        <section class="home" id="home">
+            <div class="home-text">
+                <h3>Hello I'm</h3>
+                <h1>Felix Duverell</h1>
+                <h4>Frontend Developer</h4>
+                <a href="#portfolio" class="btn">My Works</a>
             </div>
-        </footer>
-        <script src="/menu.js"></script>
+        </section>
+
+        <!--About-->
+        <section class="about" id="about">
+            <div class="about-img">
+                <!-- <img src="/images/portfolioabout.jpg" alt="" /> -->
+                <img src="/images/transparentbild.png" alt="" />
+            </div>
+            <div class="about-text">
+                <h2>About Me</h2>
+                <h5>
+                    I am a creative designer and
+                    <span> Frontend Developer</span>
+                </h5>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Eius reiciendis nihil consequatur nisi. Fugiat, deserunt
+                    consequatur quisquam laboriosam veritatis voluptatibus
+                    repellat autem, et iure dolore accusantium sint ratione
+                    minima similique distinctio quas! Aspernatur praesentium ut
+                    sequi laboriosam facilis ullam voluptate animi soluta
+                    eligendi distinctio sed voluptatum eum modi veniam eaque
+                </p>
+                <a href="#footer" class="btn">Let's Talk</a>
+            </div>
+        </section>
+
+        <!--Portfolio-->
+        <section class="portfolio" id="portfolio">
+            <div class="text-mid">
+                <h2>Portfolio</h2>
+            </div>
+
+            <div class="portfolio-items">
+                <div class="portfolio-case">
+                    <h3>Glas & Fasadteknik</h3>
+                    <img src="/images/glas&fasadteknik-img.png" alt="" />
+                    <a href="/Glasfasadteknik html/home.html" class="p-btn"
+                        >View page</a
+                    >
+
+                    <div class="icon-mid">
+                        <i class="bx bx-mobile-alt"></i>
+                        <i class="bx bx-tab"></i>
+                        <i class="bx bx-desktop"></i>
+                    </div>
+                </div>
+
+                <div class="portfolio-case">
+                    <h3>BHROMAON</h3>
+                    <img src="/images/BHROMAON.png" alt="" />
+                    <a href="/html/bhromaon/bhromaon.html" class="p-btn"
+                        >View page</a
+                    >
+                    <div class="icon-mid">
+                        <i class="bx bx-mobile-alt"></i>
+                        <i class="bx bx-tab"></i>
+                        <i class="bx bx-desktop"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Contact-->
+        <section class="contact" id="contact">
+            <div class="contact-right"><h4>Let's Keep In Touch!</h4></div>
+            <div class="contact-left">
+                <div class="mail">
+                    <a
+                        id="email"
+                        href="mailto:felix.duverell@gmail.com"
+                        target="_blank"
+                        ><i class="bx bx-mail-send"></i
+                    ></a>
+                </div>
+            </div>
+        </section>
+
+        <!--Footer-->
+        <section class="footer" id="footer">
+            <h3>Felix Duverell</h3>
+            <div class="footer-icons">
+                <a
+                    href="https://www.linkedin.com/in/felix-duverell-98ab1a254/"
+                    target="_blank"
+                    ><i class="bx bxl-linkedin"></i
+                ></a>
+                <a href="https://github.com/FelixDuverell" target="_blank"
+                    ><i class="bx bxl-github"></i
+                ></a>
+                <a
+                    id="email"
+                    href="mailto:felix.duverell@gmail.com"
+                    target="_blank"
+                    ><i class="bx bx-mail-send"></i
+                ></a>
+            </div>
+        </section>
+
+        <!--Scroll-->
+        <a href="#" class="scroll-btn"><i class="bx bx-chevron-up"></i></a>
+
+        <!--Fade in-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--JS-->
+        <script src="js/script.js"></script>
     </body>
 </html>
