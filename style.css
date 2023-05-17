@@ -43,6 +43,16 @@ header {
     border-bottom: 1px solid transparent;
     transition: all ease 0.5s;
 }
+
+span {
+    color: var(--main-color);
+}
+
+.coln {
+    font-weight: bold;
+    font-size: larger;
+}
+
 .size {
     width: 400px;
 }
@@ -190,10 +200,6 @@ header.sticky {
     font-size: 22px;
     margin-bottom: 20px;
     line-height: 1.4;
-}
-
-span {
-    color: var(--main-color);
 }
 
 .about-text p {
