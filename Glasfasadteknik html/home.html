@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anek+Devanagari&family=K2D&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- icons-->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+    <!-- Animations  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <!-- Favicon -->
+    <link rel="icon" href="/images/fav.png" type="image/png" />
+    <link rel="shortcut icon" href="/images/fav.png" type="image/png" />
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/05341947df.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="/Glasfasadteknik css/navbar.css" />
+    <link rel="stylesheet" href="/Glasfasadteknik css/imageslider.css" />
+    <link rel="stylesheet" href="/Glasfasadteknik css/styles.css" />
+    <title>
+      Glas & Fasadteknik - allt innom fönster, dörrar, portar och glaspartier
+    </title>
+  </head>
+  <body>
+    <div class="subdown">
+      <nav>
+        <input type="checkbox" id="check" />
+        <label for="check">
+          <i class="fas fa-bars" id="btn"></i>
+          <i class="fas fa-times" id="cancel"></i>
+        </label>
+        <a href="/Glasfasadteknik html/home.html"
+          ><img
+            class="navlogo"
+            src="/images/Glas&fasadteknik png.png"
+            alt="logo"
+        /></a>
+        <ul>
+          <li>
+            <a href="/Glasfasadteknik html/products.html">Produkter</a>
+            <ul>
+              <li><a href="/Glasfasadteknik html/windows.html">Fönster</a></li>
+              <li><a href="/Glasfasadteknik html/gates.html">Portar</a></li>
+              <li>
+                <a href="/Glasfasadteknik html/entre.html">Entrépartier</a>
+              </li>
+              <li>
+                <a href="/Glasfasadteknik html/glaspar.html">Glaspartier</a>
+              </li>
+              <li><a href="/Glasfasadteknik html/doors.html">Dörrar</a></li>
+              <li>
+                <a href="/Glasfasadteknik html/galler.html">Gallerdörrar</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="/Glasfasadteknik html/partners.html">Partners</a>
+            <ul>
+              <li>
+                <a href="/Glasfasadteknik html/suppliers.html">Leverantörer</a>
+              </li>
+              <li class="smbprtnr">
+                <a href="/Glasfasadteknik html/sampartners.html"
+                  >Sammarbetspartners</a
+                >
+              </li>
+            </ul>
+          </li>
+          <li><a href="/Glasfasadteknik html/about.html">Om Oss</a></li>
+          <li><a href="/Glasfasadteknik html/contact.html">Kontakt</a></li>
+        </ul>
+      </nav>
+    </div>
+    <hr />
+    <!--image slider start-->
+    <div class="container" data-autoplay="true">
+      <div class="slide">
+        <img src="/images/imgslide1.png" alt="svart dörr" />
+      </div>
+      <div class="slide">
+        <img src="/images/imgslide3 (2).png" alt="port" />
+      </div>
+
+      <button id="carousel-btn" class="prev" onclick="prev()">
+        <i class="fa fa-angle-left"></i>
+      </button>
+      <button id="carousel-btn" class="next" onclick="next()">
+        <i class="fa fa-angle-right"></i>
+      </button>
+    </div>
+    <div class="dots_container" id="indicator"></div>
+    <!--image slider end-->
+    <!--Main-->
+
+    <div class="main-homepage">
+      <p class="text-homepage">
+        Att öppna en dörr ut i friska luften, att titta ut genom ett vackert
+        fönster eller anpassa porten till nya behov på jobbet låter ganska
+        självklart - vi fixar allt det självklara och omvandlar det dessutom
+        till ren glädje! Ska det även spegla din personlighet, husets stil eller
+        verksamhetens profil? Då har du kommit rätt!
+
+        <br />
+
+        Välkommen till Glas och Fasadteknik – en märkesoberoende leverantör av
+        fönster, dörrar, portar och glaspartier, allt från standard till
+        speciallösningar, för inre och yttre miljö!
+
+        <br />
+
+        Vår affärsidé bygger på att ge våra kunder mervärden som bästa funktion,
+        personlig anpassning och stor valfrihet. Kanske är lägsta pris inte
+        alltid lösningen men vi vet att priset i kombination med våra leveranser
+        brukar skapa en kundnöjdhet så mycket större än vad ett ”lägsta pris”
+        någonsin kan ge. Vi jobbar kundnära och alltid enligt kundens behov -
+        detta är vårt kundlöfte till dig och vår unikitet.
+
+        <br />
+
+        Vi ser fram emot att höra om, och kanske lösa, just dina behov!
+      </p>
+    </div>
+    <!-- 
+        <div class="second-section">
+            <a href="/html/about.html">
+                <button class="btn">Vilka är vi?</button>
+            </a>
+        </div> -->
+
+    <!--Footer-->
+    <footer>
+      <div class="ins-container">
+        <div class="text-section">
+          <h4>Huvudkontor/besöksadress:</h4>
+          <br />
+          <p>Andesitgatan 14K</p>
+          <br />
+          <p>254 68 Helsingborg</p>
+        </div>
+        <div class="text-section">
+          <h4>Regionkontor/besöksadress</h4>
+          <br />
+          <p>Badvägen 18</p>
+          <br />
+          <p>623 65 Ljungarn, Gotland</p>
+        </div>
+
+        <div class="text-section">
+          <h4>Kontakt:</h4>
+          <br />
+          <p>Telefon:</p>
+          <p>0768-815 900</p>
+          <br />
+          <p>Mail:</p>
+          <p>info@glas-fasadteknik.se</p>
+        </div>
+      </div>
+      <div class="bottom-section">
+        <hr class="footer-line" />
+        <p class="cright">Copyright Glas & Fasadteknik | Design by Duverell</p>
+      </div>
+    </footer>
+    <script src="/js/imageslider.js"></script>
+  </body>
+</html>
