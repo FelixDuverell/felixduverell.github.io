@@ -2,15 +2,6 @@ body {
     background-color: #ffffff;
 }
 
-.fa-magnifying-glass {
-    cursor: pointer;
-    position: absolute;
-    top: 40%;
-    float: right;
-    transform: translateY(-50%);
-    background: #fff;
-}
-
 /* Text home page  */
 
 .main-homepage {
@@ -71,43 +62,35 @@ body {
 
 /* Windows */
 
-.window-container {
-    display: table;
-    flex-direction: column;
+.prod-container {
+    display: flex;
     margin: 10% 15%;
-    width: 400px;
     margin-top: 200px;
-    line-height: 20px;
-}
-.window-size1 {
-    position: absolute;
-    height: 200px;
-    width: 450px;
-    margin-left: 840px;
-    margin-top: -400px;
-    border-radius: 10px;
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.705);
+    justify-content: center;
 }
 
-.window-size2 {
-    position: absolute;
-    height: 200px;
-    width: 450px;
-    margin-top: -190px;
-    margin-left: 840px;
-    border-radius: 10px;
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.705);
+.floatright {
+    float: right;
+    margin-left: 50px;
 }
 
-.window-size3 {
-    position: absolute;
-    height: 410px;
-    width: 320px;
-    margin-top: -400px;
-    margin-left: 500px;
-    border-radius: 10px;
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.705);
+.floatleft {
+    float: left;
+    margin-right: 50px;
 }
+
+.prodtext {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+
+.prodimg {
+    width: 400px;
+    height: 400px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.753);
+}
+
 /* Doors */
 
 .text-main {
@@ -329,89 +312,11 @@ footer {
     margin-top: 10px;
 }
 
+.h4line {
+    text-decoration: underline;
+}
+
 @media screen and (max-width: 1440px) {
-    .gate-text-main {
-        width: 400px;
-        line-height: 20px;
-        margin: 12% 15%;
-        margin-top: 300px;
-    }
-
-    .gate-section {
-        margin-top: 120px;
-        margin-bottom: 100px;
-    }
-
-    .gate-image {
-        margin-left: 600px;
-        margin-top: -550px;
-        margin-bottom: 100px;
-    }
-
-    .gate-size {
-        display: inline-block;
-        height: 300px;
-        width: 280px;
-        margin-top: 150px;
-        border-radius: 10px;
-    }
-
-    .door-section {
-        margin-top: 120px;
-        margin-bottom: 100px;
-    }
-
-    .door-image {
-        margin-left: 600px;
-        margin-top: -550px;
-        margin-bottom: 100px;
-    }
-
-    .door-size {
-        display: inline-block;
-        height: 300px;
-        width: 200px;
-        margin-top: 60px;
-        border-radius: 10px;
-    }
-
-    .window-container {
-        display: table;
-        flex-direction: column;
-        margin: 10% 15%;
-        width: 400px;
-        margin-top: 200px;
-        line-height: 20px;
-    }
-    .window-size1 {
-        position: absolute;
-        height: 200px;
-        width: 300px;
-        margin-left: 800px;
-        margin-top: -400px;
-        border-radius: 10px;
-        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.705);
-    }
-
-    .window-size2 {
-        position: absolute;
-        height: 200px;
-        width: 300px;
-        margin-top: -190px;
-        margin-left: 800px;
-        border-radius: 10px;
-        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.705);
-    }
-
-    .window-size3 {
-        position: absolute;
-        height: 410px;
-        width: 280px;
-        margin-top: -400px;
-        margin-left: 500px;
-        border-radius: 10px;
-        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.705);
-    }
 }
 
 @media screen and (max-width: 1300px) {
@@ -430,110 +335,9 @@ footer {
         margin-top: 50px;
         border-radius: 10px;
     }
-
-    .gate-text-main {
-        margin-left: 200px;
-    }
-    .gate-section {
-        margin-top: 120px;
-        margin-bottom: 100px;
-    }
-
-    .gate-image {
-        margin-left: 580px;
-        margin-top: -550px;
-        margin-bottom: 100px;
-    }
-
-    .gate-size {
-        display: inline-block;
-        height: 300px;
-        width: 280px;
-        margin-top: 180px;
-        margin-left: 50px;
-        border-radius: 10px;
-    }
-
-    .text-main {
-        margin-left: 50px;
-    }
-
-    .door-section {
-        margin-top: 120px;
-        margin-bottom: 100px;
-        width: 1300px;
-    }
-
-    .door-image {
-        margin-left: 520px;
-        margin-top: -550px;
-        margin-bottom: 100px;
-    }
-
-    .door-size {
-        display: inline-block;
-        height: 300px;
-        width: 185px;
-        margin-top: 80px;
-        border-radius: 10px;
-    }
 }
 
 @media screen and (max-width: 1200px) {
-    .text-main {
-        width: 400px;
-        line-height: 20px;
-        margin-top: 250px;
-        margin-bottom: 250px;
-    }
-
-    .door-section {
-        display: inline-block;
-        margin-bottom: 100px;
-        margin-right: 200px;
-        margin: 50px;
-    }
-
-    .door-image {
-        display: flex;
-        flex-direction: column;
-        margin-left: 600px;
-        margin-top: -780px;
-        margin-bottom: 100px;
-    }
-
-    .door-size {
-        height: 300px;
-        width: 300px;
-        margin-left: 50px;
-        margin-top: 100px;
-        border-radius: 10px;
-    }
-
-    .size3 {
-        display: none;
-    }
-
-    .gate-text-main {
-        width: 400px;
-        line-height: 20px;
-        margin: 12% 15%;
-        margin-top: 300px;
-    }
-
-    .gate-image {
-        margin-left: 580px;
-        margin-top: -550px;
-        margin-bottom: 10px;
-    }
-
-    .gate-size {
-        display: inline-block;
-        height: 300px;
-        width: 180px;
-        margin-top: 180px;
-        border-radius: 10px;
-    }
     .footer-line {
         width: 80%;
         margin-left: 140px;
@@ -545,41 +349,6 @@ footer {
 }
 
 @media screen and (max-width: 1024px) {
-    .door-section {
-        margin: 25px;
-    }
-
-    .door-image {
-        display: flex;
-        flex-direction: column;
-        margin-left: 600px;
-        margin-top: -780px;
-        margin-bottom: 100px;
-    }
-
-    .door-size {
-        height: 300px;
-        width: 300px;
-        margin-left: 5px;
-        margin-top: 100px;
-        border-radius: 10px;
-    }
-
-    .gate-image {
-        display: flex;
-        flex-direction: column;
-        margin-left: 600px;
-        margin-top: -580px;
-    }
-
-    .gate-size {
-        height: 300px;
-        width: 250px;
-        margin-left: 5px;
-        margin-top: 60px;
-        border-radius: 10px;
-    }
-
     .about-image {
         display: flex;
         flex-direction: column;
@@ -598,16 +367,6 @@ footer {
 }
 
 @media screen and (max-width: 944px) {
-    .text-main {
-        width: 300px;
-        line-height: 20px;
-        margin-top: 250px;
-        margin-bottom: 250px;
-    }
-    .door-section {
-        width: 800px;
-        margin: 5px;
-    }
     .about-image {
         display: flex;
         flex-direction: column;
@@ -621,20 +380,6 @@ footer {
         width: 400px;
         margin-left: 50px;
         margin-top: 10px;
-        border-radius: 10px;
-    }
-    .gate-image {
-        display: flex;
-        flex-direction: column;
-        margin-left: 600px;
-        margin-top: -580px;
-    }
-
-    .gate-size {
-        height: 300px;
-        width: 250px;
-        margin-left: 5px;
-        margin-top: 80px;
         border-radius: 10px;
     }
 }
@@ -655,79 +400,9 @@ footer {
         margin-top: 10px;
         border-radius: 10px;
     }
-
-    .door-section {
-        display: inline-block;
-        margin-bottom: 100px;
-        margin-right: 200px;
-        margin: 50px;
-    }
-
-    .door-image {
-        display: flex;
-        flex-direction: column;
-        margin-left: 400px;
-        margin-top: -780px;
-        margin-bottom: 100px;
-    }
-
-    .door-size {
-        height: 300px;
-        width: 300px;
-        margin-left: 50px;
-        margin-top: 50px;
-        border-radius: 10px;
-    }
-
-    .gate-text-main {
-        width: 300px;
-    }
-
-    .gate-image {
-        display: inline-block;
-        margin-left: 400px;
-        margin-top: -780px;
-        margin-bottom: 100px;
-    }
-
-    .gate-size {
-        height: 300px;
-        width: 250px;
-        margin-left: 50px;
-        margin-top: 50px;
-        border-radius: 10px;
-    }
 }
 
 @media screen and (max-width: 768px) {
-    .text-main {
-        width: 300px;
-        line-height: 20px;
-        margin-top: 250px;
-        margin-bottom: 250px;
-    }
-    .door-section {
-        display: inline-block;
-        margin-bottom: 100px;
-        margin-right: 200px;
-        margin: 25px;
-    }
-
-    .door-image {
-        display: flex;
-        flex-direction: column;
-        margin-left: 400px;
-        margin-top: -800px;
-        margin-bottom: 100px;
-    }
-
-    .door-size {
-        height: 300px;
-        width: 250px;
-        margin-left: 50px;
-        margin-top: 50px;
-        border-radius: 10px;
-    }
     .about-image {
         display: flex;
         flex-direction: column;
@@ -801,36 +476,6 @@ footer {
 }
 
 @media screen and (max-width: 600px) {
-    .text-main {
-        width: 250px;
-        line-height: 20px;
-        margin-top: 250px;
-        margin-bottom: 250px;
-        margin-left: 50px;
-    }
-    .door-section {
-        display: inline-block;
-        margin-bottom: 100px;
-        margin-right: 200px;
-        margin: 25px;
-    }
-
-    .door-image {
-        display: flex;
-        flex-direction: column;
-        margin-left: 300px;
-        margin-top: -800px;
-        margin-bottom: 100px;
-    }
-
-    .door-size {
-        height: 300px;
-        width: 200px;
-        margin-left: 50px;
-        margin-top: 50px;
-        border-radius: 10px;
-    }
-
     .about-image {
         display: table-row;
         flex-direction: column;
@@ -1005,7 +650,6 @@ footer {
     .text-section {
         margin-top: 100px;
         margin-left: 150px;
-        margin-bottom: 50px;
         width: 275px;
     }
     .footer-line {

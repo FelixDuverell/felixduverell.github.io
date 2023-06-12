@@ -384,7 +384,7 @@ label #cancel:hover {
 /* Mobile Styles */
 @media (max-width: 768px) {
     nav {
-        height: auto;
+        height: 120px;
     }
     nav img {
         position: relative;
@@ -436,7 +436,7 @@ label #cancel:hover {
 
 @media only screen and (max-width: 600px) {
     nav {
-        height: auto;
+        height: 120px;
     }
 
     nav img,
@@ -513,9 +513,8 @@ label #cancel:hover {
 
 @media only screen and (max-width: 768px) {
     nav {
-        max-width: 768px;
+        height: 120px;
     }
-
     nav ul ul li {
         display: none;
     }
@@ -535,7 +534,7 @@ label #cancel:hover {
 
 @media only screen and (max-width: 600px) {
     nav {
-        width: 600px;
+        height: 120px;
     }
 
     nav ul ul li {
@@ -558,6 +557,7 @@ label #cancel:hover {
 @media only screen and (max-width: 425px) {
     nav {
         max-width: 425px;
+        height: 120px;
     }
 
     nav ul ul li {
@@ -580,6 +580,7 @@ label #cancel:hover {
 @media only screen and (max-width: 375px) {
     nav {
         max-width: 375px;
+        height: 120px;
     }
 
     nav ul ul li {
@@ -602,6 +603,7 @@ label #cancel:hover {
 @media only screen and (max-width: 320px) {
     nav {
         max-width: 320px;
+        height: 120px;
     }
 
     nav ul ul li {
@@ -624,6 +626,7 @@ label #cancel:hover {
 @media only screen and (max-width: 280px) {
     nav {
         max-width: 280px;
+        height: 120px;
     }
 
     nav img {
