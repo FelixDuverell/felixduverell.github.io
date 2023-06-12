@@ -523,6 +523,28 @@ header.sticky {
     width: 100px;
     margin-bottom: 10px;
   }
+
+  .size {
+    width: 200px;
+  }
+
+  .portfolio-items {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .portfolio-case img {
+    width: 200px;
+  }
+
+  #menu-icon {
+    padding-right: 50px;
+  }
+
+  .navlist {
+    text-align: center;
+    padding: 50px;
+  }
 }
 
 @media (max-width: 320px) {
