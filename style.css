@@ -356,6 +356,7 @@ header.sticky {
   transform: translateY(-5px);
   background: transparent;
   border: 2px solid var(--main-color);
+  background: var(--origin-color);
 }
 
 @media (max-width: 1600px) {
